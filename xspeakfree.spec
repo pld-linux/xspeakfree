@@ -13,7 +13,6 @@ Requires:	speakfreely
 Requires:	/usr/bin/mkfifo
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix	/usr/X11R6
 
 %description
 xspeakfree is a Tcl/Tk (wish) frontend to Speak Freely.
