@@ -35,13 +35,12 @@ install -d $RPM_BUILD_ROOT/{%{_bindir},%{_libdir}/%{name}}
 install bin/* $RPM_BUILD_ROOT/%{_bindir}
 install lib/%{name}/* $RPM_BUILD_ROOT/%{_libdir}/%{name}
 
-gzip -9nf README HISTORY TODO
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README HISTORY TODO
 %attr(755,root,root) %{_bindir}/*
 %{_libdir}/%{name}/*
