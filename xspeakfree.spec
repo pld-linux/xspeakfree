@@ -3,9 +3,10 @@ Summary(pl):	Frontend do speakfreely napisany w tcl/tk
 Name:		xspeakfree
 Version:	0.8.1
 Release:	1
-Group:		Applications/Communication
-Group(pl):	-
-License:	public domain
+Group:		Applications/Communications
+Group(de):	Applikationen/Kommunikation
+Group(pl):	Aplikacje/Komunikacja
+License:	Public domain
 Source0:	http://www.spearce.org/projects/xspeakfree/%{name}-%{version}.tar.gz
 Patch0:		%{name}-executing.patch
 URL:		http://www.spearce.org/projects/xspeakfree
@@ -46,11 +47,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.gz
 %attr(755,root,root) %{_bindir}/*
 %{_libdir}/%{name}/*
-
-%changelog
-* %{date} PLD Team <pld-list@pld.org.pl>
-All persons listed below can be reached at <cvs_login>@pld.org.pl
-
-$Log: xspeakfree.spec,v $
-Revision 1.1  2000-11-16 14:43:24  zagrodzki
-- initial release
