@@ -6,6 +6,7 @@ Release:	1
 Group:		Applications/Communications
 License:	Public Domain
 Source0:	http://www.spearce.org/projects/xspeakfree/%{name}-%{version}.tar.gz
+# Source0-md5:	6589d49433ab5993945f49329e3a27bd
 Patch0:		%{name}-executing.patch
 URL:		http://www.spearce.org/projects/xspeakfree
 Requires:	tk >= 8.0
