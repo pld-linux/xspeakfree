@@ -1,12 +1,12 @@
 Summary:	Tcl/Tk frontend to speakfreely
 Summary(pl):	Frontend do speakfreely napisany w Tcl/Tk
 Name:		xspeakfree
-Version:	0.8.1
+Version:	0.8.2
 Release:	1
 Group:		Applications/Communications
 License:	Public Domain
-Source0:	http://www.spearce.org/projects/xspeakfree/%{name}-%{version}.tar.gz
-# Source0-md5:	6589d49433ab5993945f49329e3a27bd
+Source0:	http://pl-task.linux.tucows.com/files/x11/com/%{name}-%{version}.tar.gz
+# Source0-md5:	d2bf1a47a56acea1ef64ddf66cd28220
 Patch0:		%{name}-executing.patch
 URL:		http://www.spearce.org/projects/xspeakfree/
 Requires:	/usr/bin/mkfifo
