@@ -4,7 +4,7 @@ Name:		xspeakfree
 Version:	0.8.1
 Release:	1
 Group:		Applications/Communications
-License:	Public domain
+License:	Public Domain
 Source0:	http://www.spearce.org/projects/xspeakfree/%{name}-%{version}.tar.gz
 Patch0:		%{name}-executing.patch
 URL:		http://www.spearce.org/projects/xspeakfree
