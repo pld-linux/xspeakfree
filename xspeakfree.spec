@@ -1,5 +1,5 @@
 Summary:	Tcl/Tk frontend to speakfreely
-Summary(pl):	Frontend do speakfreely napisany w Tcl/Tk
+Summary(pl.UTF-8):   Frontend do speakfreely napisany w Tcl/Tk
 Name:		xspeakfree
 Version:	0.8.2
 Release:	1
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xspeakfree is a Tcl/Tk (wish) frontend to Speak Freely.
 
-%description -l pl
+%description -l pl.UTF-8
 xspeakfree jest frontendem w Tcl/Tk (wish) do Speak Freely.
 
 %prep
