@@ -1,5 +1,5 @@
 Summary:	Tcl/Tk frontend to speakfreely
-Summary(pl.UTF-8):   Frontend do speakfreely napisany w Tcl/Tk
+Summary(pl.UTF-8):	Frontend do speakfreely napisany w Tcl/Tk
 Name:		xspeakfree
 Version:	0.8.2
 Release:	1
